@@ -1,12 +1,11 @@
 import 'dart:async';
 
 import 'package:contact_picker_platform_interface/contact_picker_platform_interface.dart';
-import 'package:fluttercontactpicker/fluttercontactpicker.dart';
+import 'package:fluttercontactpicker_plus/fluttercontactpicker_plus.dart';
 
 /// Plugin to interact with contact Pickers
 /// Supports Android, Web and iOS
 class FlutterContactPicker {
-
   // No one is supposed to make an instance of this class
   FlutterContactPicker._();
 
@@ -26,7 +25,6 @@ class FlutterContactPicker {
   /// See Also [PhoneContact]
   static Future<PhoneContact> pickPhoneContact(
           {
-
           /// Whether to automatically request the required permission if needed or not (See [requestPermission] and [hasPermission])
           bool askForPermission = true}) async =>
       ContactPickerPlatform.instance
@@ -37,7 +35,6 @@ class FlutterContactPicker {
   /// See Also [pickEmailContact]
   Future<List<PhoneContact>> pickPhoneContacts(
       {
-
       /// This doesn't do anything as web does not have permissions for now
       bool askForPermission = true,
 
@@ -53,7 +50,6 @@ class FlutterContactPicker {
   /// See Also [pickEmailContact]
   static Future<EmailContact> pickEmailContact(
           {
-
           /// Whether to automatically request the required permission if needed or not (See [requestPermission] and [hasPermission])
           bool askForPermission = true}) async =>
       ContactPickerPlatform.instance
@@ -64,7 +60,6 @@ class FlutterContactPicker {
   /// See Also [pickEmailContact]
   Future<List<EmailContact>> pickEmailContacts(
       {
-
       /// This doesn't do anything as web does not have permissions for now
       bool askForPermission = true,
 
@@ -80,7 +75,6 @@ class FlutterContactPicker {
   /// See Also [pickFullContacts]
   static Future<FullContact> pickFullContact(
           {
-
           /// Whether to automatically request the required permission if needed or not (See [requestPermission] and [hasPermission])
           bool askForPermission = true}) async =>
       ContactPickerPlatform.instance
@@ -91,7 +85,6 @@ class FlutterContactPicker {
   /// See Also [pickFullContact]
   Future<List<FullContact>> pickFullContacts(
       {
-
       /// This doesn't do anything as web does not have permissions for now
       bool askForPermission = true,
 
@@ -116,7 +109,6 @@ class FlutterContactPicker {
   /// On Web this will throw an [UnsupportedError] as web implementation does not have permissions
   static Future<bool> requestPermission(
           {
-
           /// Whether permission should be requested anyways even if [hasPermission] returns true or not
           bool force = false}) async =>
       ContactPickerPlatform.instance.requestPermission(force: force);
