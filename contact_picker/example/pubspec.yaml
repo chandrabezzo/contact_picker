@@ -24,7 +24,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  fluttercontactpicker:
+  fluttercontactpicker_plus:
     path: ../
   url_launcher: ^6.0.2
 

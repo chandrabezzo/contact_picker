@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:fluttercontactpicker/fluttercontactpicker.dart';
+import 'package:fluttercontactpicker_plus/fluttercontactpicker_plus.dart';
 
 void main() => runApp(MyApp());
 
@@ -59,7 +59,8 @@ class _MainWidgetState extends State<MainWidget> {
                   decoration: TextDecoration.underline,
                 ),
                 recognizer: TapGestureRecognizer()
-                  ..onTap = () => launchUrl(Uri.parse('https://web.dev/contact-picker/'))),
+                  ..onTap = () =>
+                      launchUrl(Uri.parse('https://web.dev/contact-picker/'))),
             TextSpan(text: ' and '),
             TextSpan(
                 text:

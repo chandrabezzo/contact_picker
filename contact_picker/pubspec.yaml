@@ -1,8 +1,8 @@
-name: fluttercontactpicker
+name: fluttercontactpicker_plus
 description: Use Androids' and iOS' native contact pickers to chose phone numbers and email addresses from contacts of the users address book
-version: 5.0.0
-git: https://github.com/DRSchlaubi/contact_pickercop
-homepage: https://github.com/DRSchlaubi/contact_picker
+version: 5.1.0
+git: https://github.com/chandrabezzo/contact_picker
+homepage: https://github.com/chandrabezzo/contact_picker
 
 environment:
   sdk: ">=3.3.0 <4.0.0"

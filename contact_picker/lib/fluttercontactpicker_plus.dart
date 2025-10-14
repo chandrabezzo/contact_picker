@@ -1,5 +1,5 @@
 /// Allows you to interact with native contact pickers.
-library fluttercontactpicker;
+library fluttercontactpicker_plus;
 
 export 'package:contact_picker_platform_interface/contact_picker_platform_interface.dart';
 
