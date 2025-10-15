@@ -1,3 +1,6 @@
+# 5.1.1
+- Update Podspec for iOS
+
 # 5.1.0
 - Remove legacy contact picker (V1 Android Embedding)
 
