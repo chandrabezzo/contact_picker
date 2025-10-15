@@ -3,15 +3,15 @@
 # Run `pod lib lint fluttercontactpicker.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'fluttercontactpicker'
-  s.version          = '5.0.0'
+  s.name             = 'fluttercontactpicker_plus'
+  s.version          = '5.1.1'
   s.summary          = 'Interact with native OS contact pickers using Flutter'
   s.description      = <<-DESC
 Interact with native OS contact pickers using Flutter
                        DESC
-  s.homepage         = 'https://github.com/DRSchlaubi/contact_picker'
+  s.homepage         = 'https://github.com/chandrabezzo/contact_picker'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Michael Rittmeister' => 'mik@rittmeister.in' }
+  s.author           = { 'Chandra Abdul Fattah' => 'chandrashibezzo@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

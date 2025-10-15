@@ -39,13 +39,13 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/chandraabdulfattah/fvm/versions/3.32.8/packages/flutter",
+      "rootUri": "file:///Volumes/Samsung990Pro/fvm/versions/3.32.8/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/chandraabdulfattah/fvm/versions/3.32.8/packages/flutter_test",
+      "rootUri": "file:///Volumes/Samsung990Pro/fvm/versions/3.32.8/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -105,7 +105,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/chandraabdulfattah/fvm/versions/3.32.8/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Volumes/Samsung990Pro/fvm/versions/3.32.8/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -166,7 +166,7 @@
   ],
   "generator": "pub",
   "generatorVersion": "3.8.1",
-  "flutterRoot": "file:///Users/chandraabdulfattah/fvm/versions/3.32.8",
+  "flutterRoot": "file:///Volumes/Samsung990Pro/fvm/versions/3.32.8",
   "flutterVersion": "3.32.8",
   "pubCache": "file:///Users/chandraabdulfattah/.pub-cache"
 }
